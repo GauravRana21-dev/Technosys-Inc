@@ -1,0 +1,4 @@
+Need to add the Technosys Pdf in the mail function. 
+config the mail properly 
+Write down the content properly 
+In the contact form change the alert to the toast 
