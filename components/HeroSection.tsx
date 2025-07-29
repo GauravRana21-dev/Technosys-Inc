@@ -16,7 +16,7 @@ const HeroSection = () => {
       >
        The  trusted growth partner for startups
       </motion.h1>
-      <h3 className="text-center text-xl md:3xl flex flex-col md:flex-row items-start md:items-center justify-center md:text-center gap-1 mx-auto">
+      <h3 className="text-center text-xl md:text-3xl flex flex-col md:flex-row items-start md:items-center justify-center md:text-center gap-1 mx-auto">
         <span className=" md:mr-2">FOR YOUR BUSINESS</span>
         <span>
           <TextRotator />
