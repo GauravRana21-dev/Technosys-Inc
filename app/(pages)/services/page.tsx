@@ -38,10 +38,6 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   manifest: "/manifest.json",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
   authors: [{ name: "Technosys Inc", url: "https://www.technosysinc.com" }],
   creator: "Technosys Inc",
   publisher: "Technosys Inc",

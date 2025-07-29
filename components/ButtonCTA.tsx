@@ -23,12 +23,12 @@ const ButtonCTA = ({
       whileTap={{ scale: 0.9 }}
       role="button"
       aria-label={text}
-      className="flex items-center gap-2 cursor-pointer "
+      className={cn("flex items-center gap-2 cursor-pointer", className)}
     >
       <Link
         href={href ?? "#"}
         type="button"
-        className={cn("border rounded-2xl py-2 px-5 text-white ", className)}
+        className={cn("border-2 border-black rounded-2xl py-2 px-5  ", className)}
       >
         {text}
       </Link>

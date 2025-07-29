@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     <footer style={{ boxShadow: "rgba(33, 35, 38, 0.1) 0px -10px 10px -10px" }}>
       {/* Email Subscription */}
-      <div className="flex lg:flex-row flex-col p-[40px] justify-between py-[70px] lg:w-[1200px] m-auto lg:gap-[140px] gap-[40px] bg-white">
+      <div className="flex lg:flex-row flex-col p-[40px] justify-between py-[70px] lg:w-[1200px] m-auto lg:gap-[140px] gap-[40px]">
         <motion.div
           className="flex gap-3 flex-col"
           initial={{ opacity: 0, y: 100 }}
