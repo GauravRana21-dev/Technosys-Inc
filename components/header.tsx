@@ -77,7 +77,7 @@ const Header = () => {
   return (
     <>
       <TopBar />
-      <div className="bg-transparent">
+      <div className="bg-transparent shadow-sm">
         <motion.nav
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

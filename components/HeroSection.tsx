@@ -12,11 +12,11 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut", delay: 0.2 }}
-        className="text-4xl text-center md:text-6xl lg:text-8xl font-unbounded font-extrabold uppercase tracking-wide w-7xl mx-auto "
+        className="text-2xl text-center md:text-6xl lg:text-8xl font-unbounded font-extrabold uppercase tracking-wide md:w-7xl mx-auto"
       >
        The  trusted growth partner for startups
       </motion.h1>
-      <h3 className="text-center text-2xl md:3xl flex flex-col md:flex-row items-start md:items-center justify-center md:text-center gap-1 mx-auto">
+      <h3 className="text-center text-xl md:3xl flex flex-col md:flex-row items-start md:items-center justify-center md:text-center gap-1 mx-auto">
         <span className=" md:mr-2">FOR YOUR BUSINESS</span>
         <span>
           <TextRotator />

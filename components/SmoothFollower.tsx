@@ -18,6 +18,8 @@ export default function SmoothFollower() {
   const DOT_SMOOTHNESS = 0.2;
   const BORDER_DOT_SMOOTHNESS = 0.1;
 
+  
+
   useEffect(() => {
     // Initialize Lenis
     const lenis = new Lenis();

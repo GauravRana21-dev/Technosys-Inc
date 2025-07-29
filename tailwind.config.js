@@ -32,6 +32,9 @@ module.exports = {
           "100%": {
             "background-position": "0% 50%",
           },
+          colors : {
+            "primary-background-color" : "#f6f5f1"
+          }
         },
       },
     },

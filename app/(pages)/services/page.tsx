@@ -59,7 +59,7 @@ const Services = () => {
         </h1>
       </div>
 
-      <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto">
+      <div className="py-10 px-5 md:px-0 grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto">
         {services.map((service, idx) => {
           return (
             <div

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { Epilogue } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: 'Social Media Strategy',
@@ -39,10 +38,10 @@ export const metadata: Metadata = {
 
 const SocialMediaStrategy = () => {
   return (
-    <div className='w-full h-[700px] bg-[#4f11ff] text-white flex flex-col items-center justify-center'>
+    <div className='w-full h-[500px] flex flex-col items-center justify-center'>
       <div className='container mx-auto'>  
-        <h1 className='text-9xl font-bold tracking-wider'>Social Media Strategy</h1>
-        <p className='my-10 w-1/2'>We help you build a strong online community, engage your audience, and increase your brand’s visibility across various social platforms.</p>
+        <h1 className='text-9xl font-bold text-center tracking-wider'>Social Media Strategy</h1>
+        <p className='my-10 w-1/2 text-center mx-auto'>We help you build a strong online community, engage your audience, and increase your brand’s visibility across various social platforms.</p>
       </div>
     </div>
   )
