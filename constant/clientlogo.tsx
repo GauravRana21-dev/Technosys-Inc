@@ -4,7 +4,7 @@ const clientLogo = {
     {
       id: "logo-1",
       description: "Astro",
-      image: "https://www.shadcnblocks.com/images/block/logos/astro.svg",
+      image: "https://s3-alpha.figma.com/hub/file/1166690750/85f69649-5387-44c2-ba45-81ae13812e36-cover.png",
       className: "h-7 w-auto",
     },
     {

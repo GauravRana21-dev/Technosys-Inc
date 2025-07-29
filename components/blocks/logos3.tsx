@@ -27,8 +27,8 @@ const Logos3 = ({ heading, logos }: Logos3Props) => {
     return null;
   }
   return (
-    <section className="">
-      <div className="container flex flex-col items-center text-center">
+    <section className="text-center mx-auto">
+      <div className="container flex flex-col items-center text-center justify-center mx-auto">
         <h1 className="my-6 text-2xl font-bold text-pretty lg:text-4xl">
           {heading}
         </h1>
@@ -51,6 +51,11 @@ const Logos3 = ({ heading, logos }: Logos3Props) => {
                         src={logo.image}
                         alt={logo.description}
                         className={logo.className}
+                        width={0}
+                        height={0}
+                        sizes="200px"
+                        loading="lazy"
+                        style={{ width : "auto", height : "auto"}}
                       />
                     </div>
                   </div>

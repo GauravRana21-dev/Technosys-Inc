@@ -9,14 +9,7 @@ import ClientLogoContainer from "@/components/blocks/clientLogoContainer";
 export default function Home() {
   return (
     <>
-      <div
-        className="bg-cover bg-center  md:h-[100vh] lg:h-[100vh]"
-        style={{
-          backgroundImage: `url(${backgroundImage.src})`,
-        }}
-      >
         <HeroSection />
-      </div>
       <ShowService />
       <OurProject />
       <ClientLogoContainer />

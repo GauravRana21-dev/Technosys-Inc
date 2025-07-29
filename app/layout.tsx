@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   },
   description:
     "We at Technosys Inc help you to grow your business with internet marketing services",
+    manifest: "/manifest",
 };
 
 export default function RootLayout({
@@ -34,7 +35,7 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="en">
       <body
         suppressHydrationWarning
-        className={`${unBounded.variable} ${poppins.variable} antialiased`}
+        className={`${unBounded.variable} ${poppins.variable} antialiased bg-[#f6f5f1]`}
       >
         <SmoothFollower />
         <Header />
