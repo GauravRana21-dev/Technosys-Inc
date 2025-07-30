@@ -6,6 +6,9 @@ module.exports = {
   safelist: ["animate-marquee", "animate-marquee-reverse"],
   theme: {
     extend: {
+      colors : {
+        "primary-background-color" : "#f6f5f1"
+      },
       animation: {
         marquee: "marquee var(--duration, 30s) linear infinite",
         "marquee-reverse":

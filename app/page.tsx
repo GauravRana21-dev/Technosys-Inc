@@ -8,12 +8,12 @@ import ClientLogoContainer from "@/components/blocks/clientLogoContainer";
 
 export default function Home() {
   return (
-    <>
-        <HeroSection />
+    <div className="overflow-x-hidden">
+      <HeroSection />
       <ShowService />
       <OurProject />
       <ClientLogoContainer />
       <TestimonialsShow />
-    </>
+    </div>
   );
 }
