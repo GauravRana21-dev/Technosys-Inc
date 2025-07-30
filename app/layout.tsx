@@ -35,7 +35,7 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="en">
       <body
         suppressHydrationWarning
-        className={`${unBounded.variable} ${poppins.variable} antialiased bg-[#f6f5f1]`}
+        className={`${unBounded.variable} ${poppins.variable} antialiased`}
       >
         <SmoothFollower />
         <Header />
