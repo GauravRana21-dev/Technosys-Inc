@@ -6,6 +6,9 @@ import OurProject from "@/components/OurProject";
 import { TestimonialsShow } from "@/components/TestimonialShow";
 import ClientLogoContainer from "@/components/blocks/clientLogoContainer";
 
+/**
+ * Renders the main landing page layout, displaying the hero section, services, projects, client logos, and testimonials in sequence.
+ */
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
