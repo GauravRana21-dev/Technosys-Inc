@@ -1,1 +1,4 @@
-on: 
+name : Check Before Push to Main Branch
+run-name : Check Before Push to Main Branch
+on: [push]
+jobs:

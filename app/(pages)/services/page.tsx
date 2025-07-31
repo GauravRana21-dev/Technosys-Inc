@@ -20,12 +20,19 @@ export const metadata: Metadata = {
     description:
       "We at Technosys Inc are a creative agency brands building insightful strategy, creating unique designs helping",
     images: [],
+    emails : "contact@technosysinc.com",
+    phoneNumbers : "+91 9910011205",
+    siteName : "Technosys Inc",
+    url : "https://www.technosysinc.com/services",
+    countryName : "India",
   },
   twitter: {
     title: "Services | Technosys Inc",
     description:
       "We at Technosys Inc are a creative agency brands building insightful strategy, creating unique designs helping",
     images: [],
+    site: "@TechnosysInc",
+    card: "summary",
   },
   robots: {
     index: true,
