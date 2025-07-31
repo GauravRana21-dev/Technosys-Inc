@@ -20,11 +20,10 @@ export const metadata: Metadata = {
     description:
       "We at Technosys Inc are a creative agency brands building insightful strategy, creating unique designs helping",
     images: [],
-    emails : "contact@technosysinc.com",
-    phoneNumbers : "+91 9910011205",
+    emails: ["contact@technosysinc.com"],
+    phoneNumbers: ["+91 9910011205"],
     siteName : "Technosys Inc",
     url : "https://www.technosysinc.com/services",
-    countryName : "India",
   },
   twitter: {
     title: "Services | Technosys Inc",
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
       "We at Technosys Inc are a creative agency brands building insightful strategy, creating unique designs helping",
     images: [],
     site: "@TechnosysInc",
-    card: "summary",
+    card: "summary_large_image",
   },
   robots: {
     index: true,
@@ -71,7 +70,7 @@ const Services = () => {
           return (
             <div
               key={idx}
-              className="flex flex-col gap-5 p-10 border-2 border-black rounded-lg hover:shadow-md "
+              className="flex flex-col gap-5 p-10 border-2 border-black rounded-lg hover:shadow-md"
             >
               <h3 className="text-2xl font-bold">{service.title}</h3>
               <p className="">

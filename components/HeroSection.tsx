@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 
 const HeroSection = () => {
   return (
-    <div className="text-white text-start flex flex-col items-start gap-5 h-full py-10 md:py-20 bg-cover bg-center px-10 md:px-35 ">
+    <div className="text-white text-start flex flex-col items-start justify-center gap-5 h-full py-10 md:py-20 bg-cover bg-center px-10 md:px-35 ">
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -38,8 +38,8 @@ const HeroSection = () => {
         </motion.p>
       </div>
       <div className="flex gap-3.5">
-        <ButtonCTA text="Read More" />
-        <ButtonCTA text="Contact Us" href="#contact" />
+        <ButtonCTA className="border-white" text="Read More" />
+        <ButtonCTA className="border-white" text="Contact Us" href="/contact" />
       </div>
     </div>
   );
