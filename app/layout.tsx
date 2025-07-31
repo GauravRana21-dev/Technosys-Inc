@@ -4,6 +4,8 @@ import "./globals.css";
 import SmoothFollower from "@/components/SmoothFollower";
 import Header from "@/components/header";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const unBounded = Unbounded({
   subsets: ["latin"],
@@ -40,6 +42,7 @@ export default function RootLayout({
         <SmoothFollower />
         <Header />
         {children}
+        <Analytics/>
         <Footer />
       </body>
     </html>
