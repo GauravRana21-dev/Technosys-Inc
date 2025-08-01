@@ -3,6 +3,13 @@
 import { useState, useEffect, useRef } from "react";
 import Lenis from "lenis";
 
+/**
+ * Renders a custom cursor effect with two smoothly animated dots that follow the user's mouse movements.
+ *
+ * Displays a small inner dot and a larger border dot that smoothly interpolate toward the cursor position. The border dot increases in size when hovering over interactive elements such as links, buttons, and form controls. The effect is visible only on medium and larger screens.
+ *
+ * @returns A React element rendering the smooth-following cursor overlay, or `null` during server-side rendering.
+ */
 export default function SmoothFollower() {
   const mousePosition = useRef({ x: 0, y: 0 });
 
