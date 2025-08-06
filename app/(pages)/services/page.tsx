@@ -88,7 +88,7 @@ const Services = () => {
                   );
                 })}
               </div>
-              <Link href={service.link}>
+              <Link href={`/services/${service.link}`}> 
                 <div className="flex items-center gap-2 hover:underline cursor-pointer">
                   <h4>View Details</h4>
                   <svg

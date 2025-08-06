@@ -36,9 +36,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="scroll-smooth" lang="en">
+    <html suppressHydrationWarning className="scroll-smooth" lang="en">
       <body
-        suppressHydrationWarning
         className={`${unBounded.variable} ${poppins.variable} antialiased`}
       >
         <SmoothFollower />

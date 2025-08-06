@@ -23,7 +23,7 @@ const services : Services[] = [
     {
         title : "Social Media",
         description : "We at Technosys Inc are a creative agency brands building insightful strategy, creating unique designs helping",
-        link : "/",
+        link : "/social-media-strategy",
         tags : ["social", "media", "services"],
     },
     {

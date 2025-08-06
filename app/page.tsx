@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <ShowService />
       <OurProject />
-      <ClientLogoContainer />
+      <ClientLogoContainer heading="Trusted by these companies & more" />
       <TestimonialsShow />
     </>
   );

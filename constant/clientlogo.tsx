@@ -1,5 +1,4 @@
 const clientLogo = {
-  heading: "Trusted by these companies & more",
   logos: [
     {
       id: "logo-1",

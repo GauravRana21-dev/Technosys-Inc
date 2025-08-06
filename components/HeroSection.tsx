@@ -12,9 +12,9 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut", delay: 0.2 }}
-        className="text-4xl md:text-8xl font-unbounded font-extrabold "
+        className="text-3xl md:text-5xl font-unbounded font-extrabold leading-10 md:leading-14 "
       >
-        INTERNET <br /> MARKETING <br /> AGENCY
+       Struggling for Customers?<br /> We Drive Traffic <br/> Leads & Sales.
       </motion.h1>
       <h3 className="text-2xl md:3xl flex flex-col md:flex-row items-start md:items-center md:text-center gap-1">
         <span className=" md:mr-2">FOR YOUR BUSINESS</span>
@@ -30,16 +30,12 @@ const HeroSection = () => {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3, ease: "easeInOut", delay: 0.2 }}
         >
-          We specialize in SEO, website development, and paid advertising to
-          help e-commerce businesses to maximize their online presence and
-          generate more revenue. Whether you need a one-time SEO setup, a
-          website built from scratch, or ongoing digital marketing solutions, we
-          provide result-driven strategies tailored to your needs.
+          Your business deserves more than likes and clicks—it deserves real growth. At Technosys Inc, we turn your website and ads into a sales engine. From SEO and PPC to GTM strategies and web development, we create custom plans that actually deliver results, not just reports.
         </motion.p>
       </div>
       <div className="flex gap-3.5">
-        <ButtonCTA className="border-white" text="Read More" />
-        <ButtonCTA className="border-white" text="Contact Us" href="/contact" />
+        <ButtonCTA className="border-white" text="Book Now" />
+        <ButtonCTA className="border-white" text="Ask Expert" href="/contact" />
       </div>
     </div>
   );

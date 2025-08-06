@@ -4,9 +4,10 @@ import ServiceSection, { ServiceSectionProps } from "./ServiceSection";
 
 const ShowService = () => {
   return (
-    <div>
+    <div className="w-fit">
       {services.map((service: ServiceSectionProps) => (
         <ServiceSection
+        
           key={service.id}
           id={service.id}
           title={service.title}

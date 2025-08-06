@@ -3,3 +3,5 @@ config the mail properly
 Write down the content properly 
 In the contact form change the alert to the toast 
 Add the sitemap URL to the robots.txt file
+
+

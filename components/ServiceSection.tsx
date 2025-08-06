@@ -30,12 +30,12 @@ const ServiceSection = ({
         key={id}
         onMouseEnter={() => handleMouseEnter(id)}
         onMouseLeave={() => handleMouseEnter("")}
-        className="flex flex-col md:flex-row md:h-[255px]  gap-5 md:gap-10 md:items-center justify-between py-8 px-8 md:py-0 md:px-8 border-b-1 overflow-x-hidden"
+        className="flex flex-col  md:flex-row md:h-[255px]  gap-5 md:gap-10 md:items-center justify-between py-8 px-8 md:py-0 md:px-8 border-b-1 overflow-x-hidden"
       >
         {/* id */}
         <div className=" text-4xl md:w-1/4 md:text-9xl font-bold">{id}.</div>
         {/* description */}
-        <div className="  md:w-1/4  md:text-left">{description}</div>
+        <div className="max-w-full md:w-1/4  md:text-left">{description}</div>
         {/* image */}
         <div className="hidden md:block md:w-1/4">
           <motion.img
